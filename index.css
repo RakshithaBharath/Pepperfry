@@ -65,6 +65,29 @@
     gap: 3px;
 }
 
+.suggestions {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    width: 100%; /* Make it the same width as the input */
+    background-color: white;
+    z-index: 1000;
+    display: none; /* Initially hidden */
+}
+
+.suggestions li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestions li:hover {
+    background-color: #f0f0f0;
+}
+
+
 .pepperfry__Main__Menu__Logo {
     flex-shrink: 0;
     /* Prevent the logo from shrinking */

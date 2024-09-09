@@ -26,8 +26,9 @@
     <!--Main Menu Declaration-->
     <section class="pepperfry__Main__Menu">
         <!--Main Menu Search field-->
-        <div class="pepperfry_Main__Menu__Search">
-            <input type="text" placeholder="Search" autocomplete="additional-name">
+        <div class="pepperfry_Main__Menu__Search" style="position:relative;">
+            <input type="text" id="categorySearch" placeholder="Search" autocomplete="off">
+            <ul id="suggestions" class="suggestions"></ul> <!-- Suggestion Box -->
         </div>
         
         <!--Main logo-->
@@ -315,11 +316,11 @@
                 </figure>
             </a>
         </div>
-        <
+        
 
     </section>
 
-
+    <script src="index.js"></script>
 
 </body>
 
